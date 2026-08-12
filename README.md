@@ -42,5 +42,32 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Elpha Secure is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Elpha Secure is a New York-based cyber insurance managing general agent (MGA) for small and midsize
+businesses that bundles a first-party cybersecurity software agent with the insurance policy itself.
+The Elpha Agent ships endpoint detection and response, Malware Guard anti-malware, encrypted offsite
+backup, multi-factor authentication for remote desktop access, email security (ES Mail), financial
+fraud detection, vulnerability and security-posture scoring, and XDR integrations with SentinelOne,
+Sophos, Trend Micro and CrowdStrike, all managed from the Elpha Secure Portal. Policies are
+distributed through appointed brokers who quote and bind in the broker portal.
+
+- Website — https://www.elphasecure.com/
+- Help Center — https://help.elphasecure.com/en
+- Blog — https://blog.elphasecure.com/
+- Portal (sign-in) — https://my.elphasecure.com
+- Terms — https://www.elphasecure.com/terms
+- Privacy — https://www.elphasecure.com/privacy
+
+## API surface
+
+Elpha Secure publishes **no public developer portal, API reference, or machine-readable
+specification**. Its Terms of Service (section 9, effective 2025-10-20) define *"Elpha Secure API's"*
+as "application programming interfaces that enable external applications to access Elpha Secure
+Software (e.g., via SOAP- or REST-based interfaces)" and reference Sample Code and API documentation
+made available on the Site to third parties building integrations — but that material is not
+publicly reachable. Contract discovery found nothing: `/openapi.json`, `/swagger.json`, `/api-docs`
+and every `/.well-known/*` path return 404 on `www`, `my` and `app`; `api.`, `docs.`, `developer.`
+and `status.elphasecure.com` do not resolve. See `x-coverage` in `apis.yml`.
+
+What *is* published and captured here: a real `llms.txt` index of the help centre
+(`llms/elpha-secure-llms.txt`), SOC 2 Type II and VB100 certification claims
+(`conformance/`), and a live TLS/DNS security probe (`security/`).

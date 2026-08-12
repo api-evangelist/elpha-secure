@@ -1,0 +1,71 @@
+generated: '2026-08-12'
+method: probed
+source: live GET of the /.well-known/ discovery surface on every Elpha Secure host
+  named in apis.yml
+summary: >-
+  Every /.well-known/ path returned 404 on every first-party Elpha Secure host
+  (www, my, app). The single 200 observed — /.well-known/security.txt on
+  help.elphasecure.com — is INTERCOM'S OWN security.txt served by the hosted help
+  centre, not a document Elpha Secure authored: its Canonical field points at
+  https://app.intercom.com/.well-known/security.txt and its Contact routes to
+  Intercom's Bugcrowd programme. It is recorded here as evidence and saved
+  verbatim, but NO WellKnown, SecurityTxt or Security pointer is wired into
+  apis.yml, because Elpha Secure does not serve a discovery surface of its own.
+hosts:
+- host: https://www.elphasecure.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+- host: https://my.elphasecure.com
+  note: Elpha Secure Portal — customer and broker sign-in.
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+- host: https://app.elphasecure.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+- host: https://help.elphasecure.com
+  note: Intercom-hosted help centre on an Elpha Secure CNAME.
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: elpha-secure-help-intercom-security.txt
+    first_party: false
+    vendor: Intercom
+    canonical: https://app.intercom.com/.well-known/security.txt
+    note: >-
+      Vendor document, not an Elpha Secure vulnerability-disclosure programme.
+      Contact routes to bugcrowd.com/intercom and security@intercom.com. Not
+      credited to Elpha Secure and not wired as SecurityTxt or Security.
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+non_resolving_hosts:
+- {host: api.elphasecure.com, result: NXDOMAIN}
+- {host: docs.elphasecure.com, result: NXDOMAIN}
+- {host: developer.elphasecure.com, result: NXDOMAIN}
+- {host: status.elphasecure.com, result: NXDOMAIN}
+- {host: portal.elphasecure.com, result: NXDOMAIN}

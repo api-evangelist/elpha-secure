@@ -1,0 +1,115 @@
+# Elpha Secure Help Center
+
+> Help center for Elpha Secure
+
+## Onboarding
+
+- [Setting Up a Portal Account](https://help.elphasecure.com/en/articles/5743278-setting-up-a-portal-account.md): Here's how to access your Elpha Secure dashboard, the place to manage security alerts and utilize our cybersecurity software.
+- [Contact Us](https://help.elphasecure.com/en/articles/6222415-contact-us.md): Here's how to connect with the right team at Elpha Secure.
+- [Supported Operating Systems](https://help.elphasecure.com/en/articles/10279494-supported-operating-systems.md): Identify whether your device is a supported operating system of the Elpha MDR agent
+- [Elpha Secure 3rd Party AV/EDR Exclusion Requirements](https://help.elphasecure.com/en/articles/9312296-elpha-secure-3rd-party-av-edr-exclusion-requirements.md): Have an existing AV/EDR solution? Ensure to add exclusions for our software within those programs prior to installation.
+- [Adding Elpha Secure as Exclusions to 3rd Party AV/EDR Software](https://help.elphasecure.com/en/articles/10556817-adding-elpha-secure-as-exclusions-to-3rd-party-av-edr-software.md): Ensure Elpha's EDR plays nicely with your current security tools
+- [Elpha Secure Deployment Options](https://help.elphasecure.com/en/articles/9722724-elpha-secure-deployment-options.md): Learn about different onboarding strategies to implement Elpha Secure across your organization devices.
+- [Installation Instructions for Elpha Secure](https://help.elphasecure.com/en/articles/6076312-installation-instructions-for-elpha-secure.md): Get detailed, step-by-step guidance to install Elpha Secure on your operating system, along with tips for deploying across multiple devices
+- [Troubleshoot 'Unable to fetch key' Issue in the Elpha Secure Software Agent](https://help.elphasecure.com/en/articles/9222014-troubleshoot-unable-to-fetch-key-issue-in-the-elpha-secure-software-agent.md): Installation failing to grab license key? Learn how to troubleshoot common factors that could impact software installation.
+
+## For Administrators
+
+- [Onboarding Teammates to Your Organization](https://help.elphasecure.com/en/articles/6325506-onboarding-teammates-to-your-organization.md): Learn how to add teammates as an administrator in the Elpha Secure Portal
+- [Assigning Permissions to Teammates](https://help.elphasecure.com/en/articles/6472463-assigning-permissions-to-teammates.md): Learn how to manage teammates and grant admin access as an administrator.
+- [Managing Device Access](https://help.elphasecure.com/en/articles/6486225-managing-device-access.md): Discover how to add or remove device access as an administrator.
+- [Organizing and Grouping Company Devices](https://help.elphasecure.com/en/articles/8487680-organizing-and-grouping-company-devices.md): Learn how to categorize devices within the Elpha Secure portal for more refined endpoint organization.
+- [How to View or Create Security Policies](https://help.elphasecure.com/en/articles/6854629-how-to-view-or-create-security-policies.md): Learn how to create a security policy for the devices in your entire organization or a user group.
+- [How to Delete/Archive a Device](https://help.elphasecure.com/en/articles/10305794-how-to-delete-archive-a-device.md): Steps to remove an old device from the Elpha Secure portal
+- [How to Add Exclusions in SentinelOne](https://help.elphasecure.com/en/articles/10308989-how-to-add-exclusions-in-sentinelone.md): Ensure Elpha Secure and SentinelOne can run smoothly side-by-side by properly excluding Elpha Agent files and processes
+- [Additional Exclusions Needed for CrowdStrike Falcon Sensor](https://help.elphasecure.com/en/articles/11759937-additional-exclusions-needed-for-crowdstrike-falcon-sensor.md)
+
+## Technology
+
+- [How To Install On Windows](https://help.elphasecure.com/en/articles/5743272-how-to-install-on-windows.md): Follow these instructions to install the Elpha Secure software on Windows devices.
+- [How to Install Elpha Secure on macOS](https://help.elphasecure.com/en/articles/5743350-how-to-install-elpha-secure-on-macos.md): Follow these instructions to install the Elpha Secure cybersecurity software on Mac devices
+- [How to Install via Group Policy](https://help.elphasecure.com/en/articles/9664252-how-to-install-via-group-policy.md): Follow these instructions to use Powershell to install the Elpha Secure software via GPO on Windows devices.
+- [Elpha Secure Malware Guard Explained](https://help.elphasecure.com/en/articles/8462770-elpha-secure-malware-guard-explained.md): Learn about about the features available in Malware Guard.
+- [How to Configure Malware Guard Settings](https://help.elphasecure.com/en/articles/8471584-how-to-configure-malware-guard-settings.md): Learn how to set up different modes for the Malware Guard in your Elpha Secure software.
+- [How to Add an Exclusion in Malware Guard](https://help.elphasecure.com/en/articles/8437037-how-to-add-an-exclusion-in-malware-guard.md): Learn how to exclude specific files, folders, or hash-based exclusions from Elpha Secure scans.
+- [How To Run A Threat Scan With Malware Guard](https://help.elphasecure.com/en/articles/8482735-how-to-run-a-threat-scan-with-malware-guard.md): Learn about the different types of security scans available and how to run a scan with Elpha Secure Malware Guard.
+- [Modifying an Existing Security Policy](https://help.elphasecure.com/en/articles/10276327-modifying-an-existing-security-policy.md): Update the settings of your organization's security policy in just a few steps.
+- [Boost Your Email Security](https://help.elphasecure.com/en/articles/8863649-boost-your-email-security.md): 90% of cyberattacks result from an email-related security breach
+- [How to Connect Microsoft Office 365 Domain to Elpha's Email Security Feature \(ES Mail\)](https://help.elphasecure.com/en/articles/8931886-how-to-connect-microsoft-office-365-domain-to-elpha-s-email-security-feature-es-mail.md): ES Mail security seamlessly integrates with your organization's email domain, providing enhanced security protection.
+- [Here's What Happens After Your Email Domain Is Connected to ES Mail](https://help.elphasecure.com/en/articles/8931988-here-s-what-happens-after-your-email-domain-is-connected-to-es-mail.md)
+- [Here's How Elpha Secure Notifies You Of Potentially Malicious Emails](https://help.elphasecure.com/en/articles/8932030-here-s-how-elpha-secure-notifies-you-of-potentially-malicious-emails.md)
+- [Elpha's Financial Fraud Detection \(FFD\)](https://help.elphasecure.com/en/articles/11534755-elpha-s-financial-fraud-detection-ffd.md): How Elpha’s FFD Flags Fraud Before It Costs You Millions
+- [Add Trusted Emails to the Allow List](https://help.elphasecure.com/en/articles/10552592-add-trusted-emails-to-the-allow-list.md): Prevent specific emails or domains from being scanned by ES Mail
+- [Configure ES Mail to Fit Your Business Needs](https://help.elphasecure.com/en/articles/10552619-configure-es-mail-to-fit-your-business-needs.md): Tailor ES Mail settings to keep your team informed and secure.
+- [How MFA Secures Remote Access](https://help.elphasecure.com/en/articles/6126090-how-mfa-secures-remote-access.md): Learn how multi-factor authentication \(MFA\) protects your organization when employees access company devices remotely.
+- [How to Use Elpha Secure’s Remote Access Protection](https://help.elphasecure.com/en/articles/5740857-how-to-use-elpha-secure-s-remote-access-protection.md): Learn how to unlock our firewall over the Remote Desktop port \(3389\) to remotely access a device.
+- [MFA \(Multifactor Authentication\) for Remote Access vs VPN \(Virtual Private Network\)](https://help.elphasecure.com/en/articles/10743603-mfa-multifactor-authentication-for-remote-access-vs-vpn-virtual-private-network.md): The Elpha Agent software includes a feature that enables a form of JIT \(Just in Time\) access for Remote Desktop access to the endpoint.
+- [VPNs with Native Multi-Factor Authentication \(MFA\) Support](https://help.elphasecure.com/en/articles/11960053-vpns-with-native-multi-factor-authentication-mfa-support.md)
+- [Offsite Encrypted Backup Explained](https://help.elphasecure.com/en/articles/5743056-offsite-encrypted-backup-explained.md): When you use offsite data backups, you can avoid paying the ransom to retrieve your data after a ransomware attack. Here's how it works.
+- [How to Set Up Data Backups With Elpha Secure](https://help.elphasecure.com/en/articles/5743129-how-to-set-up-data-backups-with-elpha-secure.md): Follow these instructions to automatically back up all your essential files and store them safely in the cloud.
+- [How to Restore Your Data Backups on MacOS](https://help.elphasecure.com/en/articles/6045122-how-to-restore-your-data-backups-on-macos.md): Follow these steps to securely restore your data backups on MacOS after a cyber incident.
+- [How to Restore Data Backups on Windows](https://help.elphasecure.com/en/articles/6045106-how-to-restore-data-backups-on-windows.md): Follow these steps to safely and securely restore your data backups on Windows after a cyber incident.
+- [How to Handle Security Alerts in the Portal](https://help.elphasecure.com/en/articles/6846619-how-to-handle-security-alerts-in-the-portal.md): Learn how to manage security alerts in the Elpha Secure Portal and resolve vulnerabilities to prevent cyberattacks.
+- [Compromised Credentials](https://help.elphasecure.com/en/articles/10552657-compromised-credentials.md)
+- [Windows: Automating Vulnerable Software Updates](https://help.elphasecure.com/en/articles/10552495-windows-automating-vulnerable-software-updates.md): The Elpha Secure Agent provides visibility into installed software that has been identified as vulnerable to security flaws.
+- [Mitigating the Risks of Expired or Soon-to-Expire SSL/TLS Certificates](https://help.elphasecure.com/en/articles/11749400-mitigating-the-risks-of-expired-or-soon-to-expire-ssl-tls-certificates.md): SSL/TLS: Certificate expiration
+- [Steps to Avoid a Ransomware Attack After Trojan:Win32/Bearfoos.A!ml Detection and Quarantine](https://help.elphasecure.com/en/articles/11473519-steps-to-avoid-a-ransomware-attack-after-trojan-win32-bearfoos-a-ml-detection-and-quarantine.md): Take additional steps to ensure your system is truly clean and protected against potential ransomware attacks:
+- [SSL/TLS: ROBOT Vulnerability Detected](https://help.elphasecure.com/en/articles/12601667-ssl-tls-robot-vulnerability-detected.md): Identifies the ROBOT \(Return Of Bleichenbacher’s Oracle Threat\) vulnerability in TLS.
+- [Exposed JSON Configuration Files](https://help.elphasecure.com/en/articles/12834663-exposed-json-configuration-files.md): This detection identifies publicly accessible or unprotected JSON configuration files available over the internet.
+- [Assess Your Security Posture](https://help.elphasecure.com/en/articles/9294915-assess-your-security-posture.md): Gain insights into your organization's security status with Elpha Secure.
+- [Organization Security Score](https://help.elphasecure.com/en/articles/9490799-organization-security-score.md): The dashboard offers a comprehensive metric summarizing the organization's overall security posture.
+- [Endpoint Security Coverage Checks](https://help.elphasecure.com/en/articles/9490858-endpoint-security-coverage-checks.md): Elpha Secure performs a comprehensive security scan at the device level
+- [Genuine OS Defined](https://help.elphasecure.com/en/articles/10552444-genuine-os-defined.md)
+
+## XDR Integration
+
+- [SentinelOne XDR Integration](https://help.elphasecure.com/en/articles/11181289-sentinelone-xdr-integration.md): Integrate your existing SentinelOne instance within the Elpha Secure portal.
+- [Sophos XDR Integration](https://help.elphasecure.com/en/articles/12453242-sophos-xdr-integration.md): This document outlines the steps to integrate Sophos XDR with your Elpha Secure environment.
+- [Trend Micro XDR Integration](https://help.elphasecure.com/en/articles/12138863-trend-micro-xdr-integration.md)
+- [Crowdstrike XDR Integration](https://help.elphasecure.com/en/articles/14355171-crowdstrike-xdr-integration.md): Onboard CrowdStrike Falcon to the Elpha Secure Portal
+
+## Enhanced Plus
+
+- [SentinelOne Agent Minimum Hardware Requirements](https://help.elphasecure.com/en/articles/11187261-sentinelone-agent-minimum-hardware-requirements.md): The SentinelOne agent requires devices to meet minimum hardware specifications. Please verify your devices comply.
+- [SentinelOne Supported Windows Versions](https://help.elphasecure.com/en/articles/11525674-sentinelone-supported-windows-versions.md): Compatibility list for Agents on Microsoft Windows
+- [SentinelOne Supported macOS Versions](https://help.elphasecure.com/en/articles/11323412-sentinelone-supported-macos-versions.md): Compatibility list for agents on macOS.
+- [Installation Instructions for SentinelOne](https://help.elphasecure.com/en/articles/11486616-installation-instructions-for-sentinelone.md): Get detailed, step-by-step guidance to install SentinelOne on your operating system, along with tips for deploying across multiple devices
+- [Install SentinelOne on Windows](https://help.elphasecure.com/en/articles/15218037-install-sentinelone-on-windows.md)
+- [Install SentinelOne on macOS](https://help.elphasecure.com/en/articles/11670928-install-sentinelone-on-macos.md): This guide shows you how to install the SentinelOne security agent on a Mac device. Please follow each step to ensure successful setup.
+- [Install SentinelOne using Group Policy](https://help.elphasecure.com/en/articles/11115860-install-sentinelone-using-group-policy.md)
+- [Install SentinelOne on Linux](https://help.elphasecure.com/en/articles/11187425-install-sentinelone-on-linux.md): This document outlines the most common installation procedures for deploying the SentinelOne Linux Agent on supported systems.
+- [Troubleshoot SentinelOne Installation Issues on macOS](https://help.elphasecure.com/en/articles/11323190-troubleshoot-sentinelone-installation-issues-on-macos.md): Use this guide to diagnose and resolve the most common problems while installing the SentinelOne macOS Agent.
+- [Troubleshoot SentinelOne Installation Issues on Windows](https://help.elphasecure.com/en/articles/11327756-troubleshoot-sentinelone-installation-issues-on-windows.md): Follow the steps below to remedy installation issues on Windows.
+- [Moving Your Endpoint Agents to Your New Elpha Secure Console](https://help.elphasecure.com/en/articles/12150143-moving-your-endpoint-agents-to-your-new-elpha-secure-console.md): This guide walks you through migrating your existing SentinelOne agents to your new Elpha Secure site.
+- [Uninstall SentinelOne on Windows and macOS](https://help.elphasecure.com/en/articles/14050710-uninstall-sentinelone-on-windows-and-macos.md): How to uninstall the SentinelOne agent from your Windows or macOS device.
+- [Setting Exclusions in SentinelOne](https://help.elphasecure.com/en/articles/14111890-setting-exclusions-in-sentinelone.md)
+
+## Troubleshooting 
+
+- [3rd Party EDR Services Alerting on Elpha Secure Files, Directories, or Processes](https://help.elphasecure.com/en/articles/10503196-3rd-party-edr-services-alerting-on-elpha-secure-files-directories-or-processes.md): Existing security software may generate false positive alerts on Elpha Secure files, directories, or processes.
+- [Troubleshoot Installation Issues On Windows](https://help.elphasecure.com/en/articles/6027297-troubleshoot-installation-issues-on-windows.md): Follow these instructions to resolve problems that may arise during Elpha Secure software installation on Windows.
+- [Troubleshoot Installation Issues On MacOS](https://help.elphasecure.com/en/articles/6027298-troubleshoot-installation-issues-on-macos.md): Follow these instructions to resolve problems that may arise during the Elpha Secure software installation on MacOS
+- [How to Uninstall Elpha Secure on Windows](https://help.elphasecure.com/en/articles/6139575-how-to-uninstall-elpha-secure-on-windows.md): Follow the steps below to remove Elpha Secure cybersecurity software from Windows devices.
+- [How to Uninstall Elpha Secure On macOS](https://help.elphasecure.com/en/articles/6139574-how-to-uninstall-elpha-secure-on-macos.md): Follow these steps to completely remove the Elpha Secure software from your Mac device.
+- [How to Upgrade on Windows Devices](https://help.elphasecure.com/en/articles/10670820-how-to-upgrade-on-windows-devices.md): Follow these steps to upgrade the Elpha Secure Agent on supported Windows devices.
+- [How To Upgrade on MacOS Devices](https://help.elphasecure.com/en/articles/10723190-how-to-upgrade-on-macos-devices.md): Follow these steps to upgrade the Elpha Secure Agent on supported MacOS devices.
+- [Here's Why Your Computer Is Asking You to Verify the Computer Certificate Name](https://help.elphasecure.com/en/articles/6143810-here-s-why-your-computer-is-asking-you-to-verify-the-computer-certificate-name.md): How to Resolve This Common Issue for Windows OS Users Setting Up Remote Access
+- [Here's Why You Cannot Connect to your Remote Device](https://help.elphasecure.com/en/articles/6128588-here-s-why-you-cannot-connect-to-your-remote-device.md): Troubleshooting Remote Access Issues and How to Resolve Them
+
+## Frequently Asked Questions \(FAQs\)
+
+- [Elpha Secure Agent vs Other MDR/EDR Products](https://help.elphasecure.com/en/articles/10282120-elpha-secure-agent-vs-other-mdr-edr-products.md): Our Lightweight EDR vs. Full-Throttled MDR
+- [Remote Access FAQs](https://help.elphasecure.com/en/articles/6016049-remote-access-faqs.md): Learn How MFA Works, When It Applies, and Other Common Queries
+- [Data Backup FAQs](https://help.elphasecure.com/en/articles/6016111-data-backup-faqs.md): How to Use the Data Backup Tool - Common Questions Answered
+- [Custom Elpha Secure Installations](https://help.elphasecure.com/en/articles/9923038-custom-elpha-secure-installations.md): Tailored Installers for Your Organization's Unique Setup.
+- [How to Remediate Dark Web Compromised Credentials](https://help.elphasecure.com/en/articles/14078832-how-to-remediate-dark-web-compromised-credentials.md)
+- [Type of Data Elpha Secure Collects](https://help.elphasecure.com/en/articles/6475519-type-of-data-elpha-secure-collects.md)
+- [Why We Collect Data](https://help.elphasecure.com/en/articles/6475524-why-we-collect-data.md)
+- [Why Elpha Secure Selectively Shares Your Data](https://help.elphasecure.com/en/articles/6475532-why-elpha-secure-selectively-shares-your-data.md)
+- [Here's What Happens When You Opt Out of the Telemetry Tool](https://help.elphasecure.com/en/articles/6475534-here-s-what-happens-when-you-opt-out-of-the-telemetry-tool.md)
+- [How to Request the Removal of Personal Information from Our System](https://help.elphasecure.com/en/articles/6475535-how-to-request-the-removal-of-personal-information-from-our-system.md)
+
+## Policyholder Resources
+
+- [Immediate Response Actions Upon Cyber Incident Detection](https://help.elphasecure.com/en/articles/13465553-immediate-response-actions-upon-cyber-incident-detection.md): Actions your IT/MSP/MSSP can take when a cyber incident is first discovered. These are best-practice suggestions only and do not alter contractual terms. Any insurance notifications should follow y...
+- [Security Best Practices Training Guide](https://help.elphasecure.com/en/articles/12562161-security-best-practices-training-guide.md): A strong security posture relies on both technology and people. The following best practices help protect your organization against common threats.

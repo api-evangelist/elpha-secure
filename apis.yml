@@ -1,8 +1,19 @@
 aid: elpha-secure
 name: Elpha Secure
-description: 'Elpha Secure is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Elpha Secure is a New York-based cyber insurance managing general agent
+  (MGA) for small and midsize businesses that bundles a first-party cybersecurity software
+  agent with the insurance policy itself. The Elpha Agent ships endpoint detection
+  and response, Malware Guard anti-malware, encrypted offsite backup, multi-factor
+  authentication for remote desktop access, email security (ES Mail), financial fraud
+  detection, vulnerability and security-posture scoring, and XDR integrations with
+  SentinelOne, Sophos, Trend Micro and CrowdStrike, all managed from the Elpha Secure
+  Portal. Policies are distributed through appointed brokers who quote and bind in
+  the broker portal. Elpha Secure publishes no public developer portal, API reference
+  or machine-readable specification; its Terms of Service define "Elpha Secure API''s"
+  as SOAP- or REST-based interfaces made available to customers and integrators under
+  agreement.'
 url: https://raw.githubusercontent.com/api-evangelist/elpha-secure/refs/heads/main/apis.yml
+image: https://cdn.prod.website-files.com/613b6b937db59c019880acd9/6195561e2839dc1c1ad55691_OpenGraph%20Img.jpg
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +23,16 @@ created: '2026-08-12'
 modified: '2026-08-12'
 tags:
 - Company
+- Cybersecurity
+- Cyber Insurance
+- Insurance
+- InsurTech
+- Endpoint Security
+- Managed Detection and Response
+- Email Security
+- Backup and Recovery
+- Risk Management
+- Small Business
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +41,64 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.elphasecure.com/
+- type: Blog
+  url: https://blog.elphasecure.com/
+- type: BlogRSS
+  url: https://blog.elphasecure.com/rss/
+- type: Support
+  url: https://help.elphasecure.com/en
+- type: HelpCenter
+  url: https://help.elphasecure.com/en
+- type: Login
+  url: https://my.elphasecure.com
+- type: TermsOfService
+  url: https://www.elphasecure.com/terms
+- type: PrivacyPolicy
+  url: https://www.elphasecure.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/elphasecure
+- type: Newsroom
+  url: https://www.elphasecure.com/newsroom
+- type: Compliance
+  url: https://www.elphasecure.com/about
+- type: Conformance
+  url: conformance/elpha-secure-conformance.yml
+- type: LLMsTxt
+  url: llms/elpha-secure-llms.txt
+- type: DomainSecurity
+  url: security/elpha-secure-domain-security.yml
+x-enrichment:
+  date: '2026-08-12'
+  status: minimal
+  artifacts_added: 7
+  pass: local-v1
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: >-
+    Elpha Secure's Terms of Service section 9 defines "Elpha Secure API's" as SOAP-
+    or REST-based interfaces and says Sample Code and API documentation sit on "the
+    Site" for third parties building integrations, but no such page is publicly
+    linked or reachable — the only entry point is the my.elphasecure.com portal
+    sign-in behind a broker appointment, and api/docs/developer.elphasecure.com do
+    not resolve at all.
+  evidence:
+  - url: https://www.elphasecure.com/terms
+    status: 200
+  - url: https://my.elphasecure.com/
+    status: 200
+  - url: https://www.elphasecure.com/openapi.json
+    status: 404
+  - url: https://developer.elphasecure.com/
+    status: 0
+  checked: '2026-08-12'
+x-artifacts-unwired:
+  note: >-
+    plans/elpha-secure-plans-pricing.yml (plan_count 0) and
+    rate-limits/elpha-secure-rate-limits.yml (limit_count 0) are deliberately NOT
+    wired as common[] pointers. Both record a verified absence, and the
+    rate_limit_signal dimension awards half credit for the mere presence of a
+    RateLimits pointer — wiring an empty artifact would be false credit.
+    well-known/elpha-secure-well-known.yml is likewise unwired: every first-party
+    /.well-known/ path 404s, and the one 200 is Intercom's vendor security.txt.

@@ -1,0 +1,44 @@
+generated: '2026-08-12'
+method: searched
+source: https://www.elphasecure.com/about
+docs: https://www.elphasecure.com/about
+summary: >-
+  Elpha Secure publishes no machine-readable API contract, so no API-level
+  standards conformance (OAuth2, OIDC, RFC 9457, JSON:API, pagination,
+  idempotency) can be asserted or derived. What it does publish, on its own About
+  page, is a security and product certification posture: SOC 2 Type II and Virus
+  Bulletin VB100. Those are the basis of the Compliance pointer in apis.yml.
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: 'About page states "SOC 2 Type II Certified", aligned with AICPA standards
+    — https://www.elphasecure.com/about'
+- id: vb100
+  conforms: true
+  evidence: 'About page states VB100 certification for the Elpha Agent anti-malware
+    engine; independent listing at https://www.virusbulletin.com/vb100/testing/elpha-secure'
+- id: oauth2
+  conforms: false
+  evidence: No public OpenAPI, no OAuth authorization-server metadata; /.well-known/oauth-authorization-server
+    returned 404 on every first-party host.
+- id: openid-connect
+  conforms: false
+  evidence: /.well-known/openid-configuration returned 404 on every first-party host.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No published API contract or error reference to evaluate.
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: /.well-known/security.txt returned 404 on www, my and app. The 200 on
+    help.elphasecure.com is Intercom's vendor document (Canonical https://app.intercom.com/.well-known/security.txt),
+    not a first-party Elpha Secure policy.
+- id: a2a-agent-card
+  conforms: false
+  evidence: /.well-known/agent-card.json and /.well-known/agent.json returned 404 on
+    every host probed.
+unverified_claims:
+- claim: ISO 27001
+  status: not-found
+  note: Not claimed on any Elpha Secure page reached; trust.elphasecure.com resolves
+    but answers with a self-referential 301 redirect loop (405 on a non-redirecting
+    GET), so no trust centre document could be read.

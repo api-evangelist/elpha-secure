@@ -1,0 +1,20 @@
+generated: '2026-08-12'
+method: searched
+source: https://www.elphasecure.com/terms
+limit_count: 0
+note: >-
+  No rate limits are published, because no public API surface is published.
+  Elpha Secure's Terms of Service (effective 2025-10-20) define "Elpha Secure
+  API's" as "application programming interfaces that enable external
+  applications to access Elpha Secure Software (e.g., via SOAP- or REST-based
+  interfaces)" and restrict their use, which confirms an API exists — but no
+  reference, quota, throttling policy, response header contract
+  (X-RateLimit-*, RateLimit-*, Retry-After) or exhaustion status code is
+  documented on any public page. Nothing could be observed live either: there is
+  no reachable API host to call (api.elphasecure.com does not resolve). An
+  honest zero, not an unchecked field.
+limits: []
+evidence:
+- {url: 'https://www.elphasecure.com/terms', status: 200}
+- {url: 'https://api.elphasecure.com/', status: 0, result: NXDOMAIN}
+- {url: 'https://www.elphasecure.com/openapi.json', status: 404}

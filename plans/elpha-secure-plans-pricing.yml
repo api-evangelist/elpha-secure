@@ -1,0 +1,37 @@
+generated: '2026-08-12'
+method: searched
+source: https://www.elphasecure.com/brokers/broker-resources
+plan_count: 0
+note: >-
+  Elpha Secure publishes no API plans, no developer pricing and no self-serve
+  price list of any kind. https://www.elphasecure.com/pricing returns 404 and no
+  dollar figure appears on the homepage, the cyber-insurance page or the broker
+  resources page. Insurance premium is quoted per risk by an appointed broker in
+  the Elpha Secure Portal ("Get your quote in seconds ... quoted and bound in
+  minutes"), so there is no published tier-and-price table to record. The only
+  named tiers Elpha Secure publishes are INSURANCE PRODUCT tiers, not API plans,
+  and they carry no published price — they are listed below as product_tiers for
+  completeness and are deliberately NOT counted as plans.
+product_tiers:
+- name: Standard
+  kind: insurance-product
+  price: null
+  source: https://www.elphasecure.com/brokers/broker-resources
+  note: 'Standard Sample Policy published as a broker resource; premium quoted per
+    risk.'
+- name: Enhanced
+  kind: insurance-product
+  price: null
+  source: https://www.elphasecure.com/brokers/broker-resources
+  note: 'Enhanced Sample Policy published as a broker resource; the About/insurance
+    pages describe lower retentions and waiting periods for insureds running the Elpha
+    Agent. Premium quoted per risk.'
+- name: Enhanced Plus
+  kind: insurance-product
+  price: null
+  source: https://help.elphasecure.com/llms.txt
+  note: 'Help-centre section covering the bundled SentinelOne agent. No published price.'
+evidence:
+- {url: 'https://www.elphasecure.com/pricing', status: 404}
+- {url: 'https://www.elphasecure.com/brokers/broker-resources', status: 200}
+- {url: 'https://www.elphasecure.com/cyber-insurance', status: 200}

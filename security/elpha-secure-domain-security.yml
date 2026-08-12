@@ -1,0 +1,45 @@
+generated: '2026-08-12'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.elphasecure.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov  8 18:36:36 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: my.elphasecure.com
+  https: true
+  tls_version: TLSv1.3
+  hsts: false
+  note: Elpha Secure Portal (customer/broker sign-in). No Strict-Transport-Security
+    response header observed.
+- host: app.elphasecure.com
+  https: true
+  tls_version: TLSv1.3
+  hsts: true
+  hsts_max_age: 31536000
+- host: help.elphasecure.com
+  https: true
+  tls_version: TLSv1.3
+  hsts: true
+  hsts_max_age: 31536000
+- host: blog.elphasecure.com
+  https: true
+  tls_version: TLSv1.3
+  hsts: false
+  note: Ghost-hosted blog. No Strict-Transport-Security response header observed.
+- host: trust.elphasecure.com
+  https: true
+  reachable: false
+  http_status: 301
+  note: 'Resolves and answers, but redirects to itself (Location: https://trust.elphasecure.com)
+    producing an infinite redirect loop; a bare GET without redirects returns 405.
+    A trust-center subdomain appears provisioned but is not serving a document.'
+domains:
+- domain: elphasecure.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
