@@ -13,6 +13,17 @@ description: 'Elpha Secure is a New York-based cyber insurance managing general 
   as SOAP- or REST-based interfaces made available to customers and integrators under
   agreement.'
 url: https://raw.githubusercontent.com/api-evangelist/elpha-secure/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/613b6b937db59c019880acd9/6195561e2839dc1c1ad55691_OpenGraph%20Img.jpg
 x-type: company
 x-source: harvest:secondary-market
