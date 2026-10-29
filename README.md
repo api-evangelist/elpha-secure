@@ -64,32 +64,97 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Elpha Secure is a New York-based cyber insurance managing general agent (MGA) for small and midsize
-businesses that bundles a first-party cybersecurity software agent with the insurance policy itself.
-The Elpha Agent ships endpoint detection and response, Malware Guard anti-malware, encrypted offsite
-backup, multi-factor authentication for remote desktop access, email security (ES Mail), financial
-fraud detection, vulnerability and security-posture scoring, and XDR integrations with SentinelOne,
-Sophos, Trend Micro and CrowdStrike, all managed from the Elpha Secure Portal. Policies are
-distributed through appointed brokers who quote and bind in the broker portal.
+Elpha Secure is a New York-based cyber insurance managing general agent (MGA) for small and midsize businesses that bundles a first-party cybersecurity software agent with the insurance policy itself. The Elpha Agent ships endpoint detection and response, Malware Guard anti-malware, encrypted offsite backup, multi-factor authentication for remote desktop access, email security (ES Mail), financial fraud detection, vulnerability and security-posture scoring, and XDR integrations with SentinelOne, Sophos, Trend Micro and CrowdStrike, all managed from the Elpha Secure Portal. Policies are distributed through appointed brokers who quote and bind in the broker portal. Elpha Secure publishes no public developer portal, API reference or machine-readable specification; its Terms of Service define "Elpha Secure API's" as SOAP- or REST-based interfaces made available to customers and integrators under agreement.
 
-- Website — https://www.elphasecure.com/
-- Help Center — https://help.elphasecure.com/en
-- Blog — https://blog.elphasecure.com/
-- Portal (sign-in) — https://my.elphasecure.com
-- Terms — https://www.elphasecure.com/terms
-- Privacy — https://www.elphasecure.com/privacy
+**Areas:** Company · Cybersecurity · Cyber Insurance · Insurance · Insurtech · Endpoint Security · Managed Detection and Response · Email Security · Backup and Recovery · Risk Management · Small Business
 
-## API surface
+## Elpha Secure on APIs.io
 
-Elpha Secure publishes **no public developer portal, API reference, or machine-readable
-specification**. Its Terms of Service (section 9, effective 2025-10-20) define *"Elpha Secure API's"*
-as "application programming interfaces that enable external applications to access Elpha Secure
-Software (e.g., via SOAP- or REST-based interfaces)" and reference Sample Code and API documentation
-made available on the Site to third parties building integrations — but that material is not
-publicly reachable. Contract discovery found nothing: `/openapi.json`, `/swagger.json`, `/api-docs`
-and every `/.well-known/*` path return 404 on `www`, `my` and `app`; `api.`, `docs.`, `developer.`
-and `status.elphasecure.com` do not resolve. See `x-coverage` in `apis.yml`.
+Everything profiled for Elpha Secure is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/elpha-secure/](https://apis.io/providers/elpha-secure/)** — or go straight to one of the APIs or properties below.
 
-What *is* published and captured here: a real `llms.txt` index of the help centre
-(`llms/elpha-secure-llms.txt`), SOC 2 Type II and VB100 certification claims
-(`conformance/`), and a live TLS/DNS security probe (`security/`).
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Elpha Secure Domain Security](https://apis.io/security/elpha-secure/elpha-secure-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Elpha Secure Plans Pricing](https://apis.io/plans/elpha-secure/elpha-secure-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Elpha Secure Rate Limits](https://apis.io/rate-limits/elpha-secure/elpha-secure-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.elphasecure.com/)
+- [Support](https://help.elphasecure.com/en)
+- [Blog](https://blog.elphasecure.com/)
+- [Compliance](https://www.elphasecure.com/about)
+- [Terms of service](https://www.elphasecure.com/terms)
+- [Privacy policy](https://www.elphasecure.com/privacy)
+- [GitHub](https://github.com/elphasecure)
+
+## API Evangelist rating
+
+**Kin Score 17.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 35.5 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.1** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/elpha-secure/](https://apis.io/providers/elpha-secure/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Elpha Secure: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/elpha-secure/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
